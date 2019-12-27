@@ -44,7 +44,7 @@ if (message.content.startsWith(prefix + 'setT')) {
      console.log('test' + argresult);
     message.channel.sendMessage(`Streaming: **${argresult}`)
 } 
-if (message.content.startsWith(prefix + 'setgame')) {
+if (message.content.startsWith(prefix + 'setg')) {
   client.user.setGame(argresult);
      console.log('test' + argresult);
     message.channel.sendMessage(`Playing: **${argresult}`)
