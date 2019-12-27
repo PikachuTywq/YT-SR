@@ -3,7 +3,7 @@ var fs = require('fs');
 var client = new Discord.Client();
 
 client.on('ready', () => {
-  // console.log(`Welcome Bro ${client.user.tag}!`)
+  // console.log(`Welcome Bro ${client.user.tag}!`);
 });
 var prefix = '#'
 
