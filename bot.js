@@ -17,7 +17,7 @@ client.on('message', message => {
   if (message.content.startsWith(prefix + 'setw')) {
   client.user.setActivity(argresult, {type: 'WATCHING'})
      console.log('test' + argresult);
-    message.channel.sendMessage(`ilyTywq: **${argresult}`)
+    message.channel.sendMessage(`:heart:`)
 } 
 
  
